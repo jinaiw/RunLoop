@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2D4F98B1CF8A1270044A05C /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D4F98A1CF8A1270044A05C /* Test.m */; };
 		E2EAD8A41CD23FD5001616A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EAD8A31CD23FD5001616A2 /* main.m */; };
 		E2EAD8A71CD23FD5001616A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EAD8A61CD23FD5001616A2 /* AppDelegate.m */; };
 		E2EAD8AA1CD23FD5001616A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2EAD8A91CD23FD5001616A2 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E2D4F9891CF8A1270044A05C /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		E2D4F98A1CF8A1270044A05C /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		E2EAD89F1CD23FD5001616A2 /* RunLoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunLoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2EAD8A31CD23FD5001616A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E2EAD8A51CD23FD5001616A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				E2EAD8A61CD23FD5001616A2 /* AppDelegate.m */,
 				E2EAD8A81CD23FD5001616A2 /* ViewController.h */,
 				E2EAD8A91CD23FD5001616A2 /* ViewController.m */,
+				E2D4F9891CF8A1270044A05C /* Test.h */,
+				E2D4F98A1CF8A1270044A05C /* Test.m */,
 				E2EAD8AB1CD23FD5001616A2 /* Main.storyboard */,
 				E2EAD8AE1CD23FD5001616A2 /* Assets.xcassets */,
 				E2EAD8B01CD23FD5001616A2 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2EAD8AA1CD23FD5001616A2 /* ViewController.m in Sources */,
+				E2D4F98B1CF8A1270044A05C /* Test.m in Sources */,
 				E2EAD8A71CD23FD5001616A2 /* AppDelegate.m in Sources */,
 				E2EAD8A41CD23FD5001616A2 /* main.m in Sources */,
 			);
@@ -300,6 +306,7 @@
 				E2EAD8B81CD23FD5001616A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
